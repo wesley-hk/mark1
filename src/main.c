@@ -29,6 +29,22 @@ int main()
 
     pthread_mutex_init(&mutex,NULL);
 
+    if(2)
+    {
+        MARK_DEBUG(DEBUG,"DEBUG here:%d",2);
+        MARK_DEBUG(DEBUG,"DEBUG here:%d",2);
+    }
+
+    if(1)
+    {
+        MARK_DEBUG(DEBUG,"DEBUG here:%d",1);
+    }
+
+    if(0)
+    {
+        MARK_DEBUG(DEBUG,"DEBUG here:%d",0);
+    }
+
     MARK_DEBUG(DEBUG,"DEBUG here:%d",15);
     MARK_DEBUG(DEBUG,"DEBUG func[%s],line[%d]",__FUNCTION__,__LINE__);
 
