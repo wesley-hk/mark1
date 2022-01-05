@@ -30,7 +30,7 @@ function build()
         cmake ..
         make
         echo "make success"
-        cd ../bin
+        cd ../src/bin
         echo "-------------------------------"
         ./main
     elif [ "n" == $STATUS ]; then

@@ -29,23 +29,6 @@ int main()
 
     pthread_mutex_init(&mutex,NULL);
 
-    if(2)
-    {
-        MARK_DEBUG(DEBUG,"DEBUG here:%d",2);
-        MARK_DEBUG(DEBUG,"DEBUG here:%d",2);
-    }
-
-    if(1)
-    {
-        MARK_DEBUG(DEBUG,"DEBUG here:%d",1);
-    }
-
-    if(0)
-    {
-        MARK_DEBUG(DEBUG,"DEBUG here:%d",0);
-    }
-
-    MARK_DEBUG(DEBUG,"DEBUG here:%d",15);
     MARK_DEBUG(DEBUG,"DEBUG func[%s],line[%d]",__FUNCTION__,__LINE__);
 
     pthread_create(&t1, NULL, pthread_process, NULL);
@@ -55,6 +38,8 @@ int main()
     pthread_join(t2, NULL);
 
     MARK_DEBUG(DEBUG,"sum=%d",sum);
+
+    json_test();
 
     return 0;
 }

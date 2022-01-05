@@ -182,7 +182,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-MARK1_BINARY_DIR:STATIC=/home/wesley/code/mark1/mark1/build/src/module/logger
+MARK1_BINARY_DIR:STATIC=/home/wesley/code/mark1/mark1/build/src/module/cjson
 
 //Value Computed by CMake
 MARK1_SOURCE_DIR:STATIC=/home/wesley/code/mark1/mark1/src/module/logger

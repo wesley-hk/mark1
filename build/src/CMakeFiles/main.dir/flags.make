@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/wesley/code/mark1/mark1/src/../include -I/home/wesley/code/mark1/mark1/src/./module/logger 
+C_INCLUDES = -I/home/wesley/code/mark1/mark1/src/../include -I/home/wesley/code/mark1/mark1/src/./module/logger -I/home/wesley/code/mark1/mark1/src/./module/cjson 
 

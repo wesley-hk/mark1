@@ -152,6 +152,33 @@ main.c.s:
 	cd /home/wesley/code/mark1/mark1/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.c.s
 .PHONY : main.c.s
 
+module/cjson/cJSON.o: module/cjson/cJSON.c.o
+
+.PHONY : module/cjson/cJSON.o
+
+# target to build an object file
+module/cjson/cJSON.c.o:
+	cd /home/wesley/code/mark1/mark1/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/module/cjson/cJSON.c.o
+.PHONY : module/cjson/cJSON.c.o
+
+module/cjson/cJSON.i: module/cjson/cJSON.c.i
+
+.PHONY : module/cjson/cJSON.i
+
+# target to preprocess a source file
+module/cjson/cJSON.c.i:
+	cd /home/wesley/code/mark1/mark1/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/module/cjson/cJSON.c.i
+.PHONY : module/cjson/cJSON.c.i
+
+module/cjson/cJSON.s: module/cjson/cJSON.c.s
+
+.PHONY : module/cjson/cJSON.s
+
+# target to generate assembly for a file
+module/cjson/cJSON.c.s:
+	cd /home/wesley/code/mark1/mark1/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/module/cjson/cJSON.c.s
+.PHONY : module/cjson/cJSON.c.s
+
 module/logger/logger.o: module/logger/logger.c.o
 
 .PHONY : module/logger/logger.o
@@ -218,6 +245,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... module/cjson/cJSON.o"
+	@echo "... module/cjson/cJSON.i"
+	@echo "... module/cjson/cJSON.s"
 	@echo "... module/logger/logger.o"
 	@echo "... module/logger/logger.i"
 	@echo "... module/logger/logger.s"

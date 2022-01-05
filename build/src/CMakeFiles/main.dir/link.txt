@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/utility.c.o CMakeFiles/main.dir/module/logger/logger.c.o  -o ../../bin/main -lpthread 
+/usr/bin/cc    CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/utility.c.o CMakeFiles/main.dir/module/logger/logger.c.o CMakeFiles/main.dir/module/cjson/cJSON.c.o  -o ../../src/bin/main -lm -lpthread 

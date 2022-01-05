@@ -10,6 +10,10 @@
 stdio.h
 ../src/../include/stdio.h
 
+../src/./module/cjson/cJSON.h
+stddef.h
+-
+
 ../src/./module/logger/logger.h
 stdio.h
 ../src/./module/logger/stdio.h
@@ -23,6 +27,28 @@ utility.h
 /home/wesley/code/mark1/mark1/src/utility.h
 logger.h
 /home/wesley/code/mark1/mark1/src/logger.h
+
+/home/wesley/code/mark1/mark1/src/module/cjson/cJSON.c
+string.h
+-
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+float.h
+-
+limits.h
+-
+ctype.h
+-
+cJSON.h
+/home/wesley/code/mark1/mark1/src/module/cjson/cJSON.h
+
+/home/wesley/code/mark1/mark1/src/module/cjson/cJSON.h
+stddef.h
+-
 
 /home/wesley/code/mark1/mark1/src/module/logger/logger.c
 string.h
@@ -59,6 +85,12 @@ stdio.h
 /home/wesley/code/mark1/mark1/src/module/logger/stdio.h
 
 /home/wesley/code/mark1/mark1/src/utility.c
+stdlib.h
+-
 utility.h
 /home/wesley/code/mark1/mark1/src/utility.h
+logger.h
+/home/wesley/code/mark1/mark1/src/logger.h
+cJSON.h
+/home/wesley/code/mark1/mark1/src/cJSON.h
 

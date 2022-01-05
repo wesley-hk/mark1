@@ -1,0 +1,49 @@
+{
+    "product_param": {
+        "encode": 10,
+        "ralated_gpio": -1,
+        "framerate": 15,
+        "uart_config": {
+            "stop_bits": 1,
+            "baud_rate": 115200,
+            "data_bits": 3,
+            "flowcontrol": 0,
+            "parity": 0
+        },
+        "default_resolution": 27
+    },
+    "PTID": "5Y1F87XGTVCY3N8ISTDELS",
+    "dev_model": "CS-CM2C-1E2WPFR",
+    "language": "CN",
+    "country": "CN",
+    "ap_mode": 1,
+    "ap_timval": 15,
+    "mirror_type": 0,
+    "alarm_config":  {
+        "alarm_voice_enable": false,
+        "msg_push_enable": true,
+        "tf_record_enable": true,
+        "detect_alarm_mode": 7
+    },
+    "alarm_defence_duration":30,
+    "wide_dynamic": 0,
+    "light_control": 1,
+    "platform": "iot",
+    "hw_config": {
+        "infrared_support": true,
+        "whiteled_support": true,
+        "gpio_support": false,
+        "reset_board_support": true,
+        "uart_support": true,
+        "PIR_support": 2,
+        "mic_support": true,
+        "speaker_support": true
+    },
+    "device": {
+        "ap_prefix": "EZVIZ"
+    },
+    "ft_wifi_cfg": {
+        "ssid": "ezviz_leiyu11",
+        "pwd": "12345678"
+    }
+}

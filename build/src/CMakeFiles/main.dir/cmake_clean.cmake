@@ -2,8 +2,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.c.o"
   "CMakeFiles/main.dir/utility.c.o"
   "CMakeFiles/main.dir/module/logger/logger.c.o"
-  "../../bin/main.pdb"
-  "../../bin/main"
+  "CMakeFiles/main.dir/module/cjson/cJSON.c.o"
+  "../../src/bin/main.pdb"
+  "../../src/bin/main"
 )
 
 # Per-language clean rules from dependency scanning.
